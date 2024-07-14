@@ -9,10 +9,10 @@ import { socialMedia } from "@/mock/footer";
 
 const Footer = () => {
   return (
-    <footer className="pt-[100px] w-full bg-black">
+    <footer className="pt-[50px] xl:pt-[100px] w-full bg-black">
       <div className="text-white py-10 border-t-[1px] border-[#FFFFFF4D]">
         <div className="container mx-auto px-4">
-          <div className="flex justify-between">
+          <div className="flex flex-col lg:flex-row items-center sm:justify-between">
             <div>
               <div className="flex justify-start">
                 <Image
@@ -30,19 +30,17 @@ const Footer = () => {
                 Experience the next generation of SEO analytics.
               </p>
               <p
-                className="text-transparent text-[222px] font-bold leading-[181px] font-Orbitron"
+                className="text-transparent text-[100px] sm:text-[150px] xl:text-[222px] font-bold leading-[85px] sm:leading-[140px] xl:leading-[181px] font-Orbitron"
                 style={{ WebkitTextStroke: "1px #FFFFFF1A" }}
               >
                 Gifter
               </p>
-              <p className="text-sm pt-6 text-[#FFFFFF]">
-                &copy; 2024 Gifter Holdings
-              </p>
+              <p className="text-sm text-[#FFFFFF]">&copy; 2024 Gifter Holdings</p>
             </div>
 
-            <div className="flex space-x-8 pt-3">
+            <div className="flex flex-col sm:flex-row sm:space-x-8 pt-3">
               <div className="w-[122px]">
-                <ul className="flex flex-col gap-5 text-sm text-[#D2D0DD]">
+                <ul className="flex flex-col gap-2 sm:gap-5 text-sm text-[#D2D0DD]">
                   <li>Platform</li>
                   <li>Features</li>
                   <li>Pricing</li>
@@ -55,9 +53,9 @@ const Footer = () => {
                 </ul>
               </div>
               <div>
-                <div className="flex">
+                <div className="flex flex-col sm:flex-row  my-3 sm:my-0">
                   <div className="w-[157px]">
-                    <ul className="flex flex-col gap-5 text-sm text-[#D2D0DD]">
+                    <ul className="flex flex-col gap-2 sm:gap-5 text-sm text-[#D2D0DD] pt-5 sm:pt-0">
                       <li>Legals</li>
                       <li>Terms of Services</li>
                       <li>Privacy Policy</li>
@@ -66,16 +64,16 @@ const Footer = () => {
                     </ul>
                   </div>
                   <div className="w-[157px]">
-                    <ul className="flex flex-col gap-5 text-sm text-[#D2D0DD]">
+                    <ul className="flex flex-col gap-2 sm:gap-5 text-sm text-[#D2D0DD]">
                       <li>Wope for</li>
                       <li>Agencies</li>
                       <li>Startups</li>
-                      <li className="pt-6">Success Stories</li>
+                      <li className="sm:pt-6">Success Stories</li>
                       <li>PizzaHut</li>
                     </ul>
                   </div>
                 </div>
-                <div className="pt-11">
+                <div className="pt-5 sm:pt-11">
                   <div className="relative">
                     <div className="input-gradient-border p-[1px] rounded-[10px] w-[288px] h-[56px]">
                       <input
@@ -115,6 +113,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
+      {/* <p className="text-sm text-[#FFFFFF] pl-[65px] sm:pl-[147px] xl:pl-[194px]">&copy; 2024 Gifter Holdings</p> */}
     </footer>
   );
 };

@@ -10,9 +10,9 @@ const MarketPlace = () => {
       <Image
         src={MarketPlaceImg}
         alt="Marketplace Background"
-        className="w-full h-[955px]"
+        className="w-full h-[751px] sm:h-screen md:h-[955px]"
       />
-      <div className=" absolute top-[20rem] md:top-[23rem] left-[1rem] md:left-[43rem] flex flex-col justify-center items-center gap-6 md:gap-[38px]">
+      <div className=" absolute top-[20rem] md:top-[23rem] left-[1rem] sm:left-[6rem] lg:left-[14rem] xl:left-[43rem] flex flex-col justify-center items-center gap-6 md:gap-[38px]">
         <p className="font-Orbitron font-semibold md:font-bold text-[46px] md:text-[66px] leading-[78px] tracking-[1px] text-white">
           Coming soon.....
         </p>
