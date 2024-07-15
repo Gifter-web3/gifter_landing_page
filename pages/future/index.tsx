@@ -25,8 +25,6 @@ import Looper from "@/public/assets/imgs/Looper.png";
 import bottomEffect from "@/public/assets/imgs/bottomEffect.png";
 import Footer from "@/components/Footer";
 
-import RoadMapLiine from "@/public/assets/imgs/Line.png";
-
 const Future = () => {
   return (
     <>

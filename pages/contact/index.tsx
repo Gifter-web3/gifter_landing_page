@@ -35,7 +35,7 @@ const Contact = () => {
           alt="Marketplace Background"
           className="w-full h-full xl:h-[955px] absolute top-0 left-0 z-10"
         />
-        <div className="flex flex-col xl:flex-row items-center justify-center mt-[30px] sm:mt-[180px] lg:left-[25px] xl:gap-[174px] w-full z-50 pb-16 xl:pb-[24px]">
+        <div className="flex flex-col xl:flex-row items-center justify-center mt-[180px] lg:left-[25px] xl:gap-[174px] w-full z-50 pb-16 xl:pb-[24px]">
           <div className="lg:p-10 rounded-lg shadow-lg w-full max-w-[770px] px-[20px] sm:px-[30px] lg:px-0 pb-[50px] sm:pb-[50px] lg:pb-0">
             <h1 className="text-[49px] sm:text-[55px] lg:text-[66px] leading-[80px] font-bold text-white mb-8 font-Orbitron text-center">
               Get in touch
