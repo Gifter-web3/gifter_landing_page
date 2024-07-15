@@ -61,7 +61,7 @@ const Features = () => {
             alt="Round Effect"
             className="w-full h-screen sm:h-[1014px] absolute top-[46rem] left-0 z-20  hidden sm:block"
           />
-          <div className="z-30 mt-[100px] sm:mt-[273px] relative px-4 lg:px-8 xl:px-0">
+          <div className="z-30 mt-[273px] relative px-4 lg:px-8 xl:px-0">
             <div className="flex flex-col ml-0 xl:ml-[270px]  w-full lg:w-[865px] gap-7 sm:gap-12">
               <p className="font-Orbitron font-bold text-[40px] lg:text-[60px] xl:text-[80px] leading-[50px] lg:leading-[80px] tracking-[-1px] text-white">
                 Buy, trade, and hold 350+ Giftcards
@@ -405,11 +405,11 @@ const Features = () => {
           <BuyAndSellGiftcard />
           <TakeCareGiftcard />
         </div>
-        {/* <Image
+        <Image
           src={BottomEffect}
           alt="Bottom Effect"
           className="w-[3747px] h-[1204px] absolute bottom-[-220px] right-0 z-50"
-        /> */}
+        />
       </div>
       <Footer />
     </>

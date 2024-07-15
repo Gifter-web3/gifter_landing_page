@@ -23,7 +23,6 @@ import BuyAndSellGiftcard from "@/components/BuyAndSellGiftcard";
 import TakeCareGiftcard from "@/components/TakeCareGiftcard";
 
 import BgGradient from "@/public/assets/imgs/bg-gradient.png";
-import bottomEffect from "@/public/assets/imgs/bottomEffect.png";
 import Footer from "@/components/Footer";
 
 const Main = () => {

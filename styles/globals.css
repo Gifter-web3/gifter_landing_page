@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 
@@ -91,5 +90,23 @@ body {
 
 .bg-features-reward {
   background: linear-gradient(180deg, #000000 0%, rgba(93, 44, 168, 0.85) 57.83%, #000000 100%);
+}
 
+.spinner-container {
+  background: transparent !important;
+  width: 90px;
+  height: 90px;
+  border-radius: 100%;
+  border: 7px solid;
+  border-top-color: #36d7b7;
+  border-bottom-color: transparent;
+  border-left-color: #36d7b7;
+  border-right-color: #36d7b7;
+  display: inline-block;
+  animation: react-spinners-ClipLoader-clip 0.75s 0s infinite linear;
+  animation-fill-mode: both;
+  position: absolute;
+  top: 40%;
+  left: 45%;
+  z-index: 50;
 }
