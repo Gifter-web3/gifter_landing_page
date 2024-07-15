@@ -5,7 +5,7 @@ import StarEffectImg from "@/public/assets/imgs/starEffect.png";
 import StartEffectImgSmall from "@/public/assets/imgs/team-top-small.png";
 import EllipseImg from "@/public/assets/imgs/EllipseF.png";
 import RoundEffect from "@/public/assets/imgs/RoundEffect.png";
-import Line from "@/public/assets/imgs/LineF.png";
+import Line from "@/public/assets/imgs/Line.png";
 import Round from "@/public/assets/imgs/round.png";
 
 import Seasonality from "@/public/assets/imgs/Seasonality.png";
