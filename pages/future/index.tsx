@@ -49,7 +49,7 @@ const Future = () => {
             />
           </div>
 
-          <div className="flex flex-col items-center w-full xl:w-[1112px] pt-[145px] md:pt-[253px] absolute left-0 xl:left-[23rem] gap-[86px]">
+          <div className="flex flex-col items-center w-full xl:w-[1112px] pt-[253px] absolute left-0 xl:left-[23rem] gap-[86px]">
             <p className="font-Orbitron font-extrabold text-[40px] md:text-[50px] lg:text-[70px] leading-[55px] md:leading-[88px] text-center text-white">
               Lorem Ipsum{" "}
               <span className="bg-[#d25804] rounded-xl">Generator</span> Lorem

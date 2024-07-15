@@ -36,7 +36,9 @@ const Navbar = () => {
       </div>
       <nav className="block sm:hidden">
         <div className="flex justify-between items-center bg-black p-5 w-full h-[81px] gap-[290px] fixed top-0 z-[1000] border-[1px] border-solid border-[#405f5b]">
-          <Image src={Logo} alt="Logo Icon" width={40} height={41} />
+          <Link href="/main">
+            <Image src={Logo} alt="Logo Icon" width={40} height={41} />
+          </Link>
           <button onClick={toggleMenu}>
             <Image src={Menu} alt="Menu Icon" width={20} height={20} />
           </button>

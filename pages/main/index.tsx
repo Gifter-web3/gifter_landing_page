@@ -30,7 +30,7 @@ const Main = () => {
     <>
       <div className="flex flex-col w-full relative">
         <div className="flex justify-center w-full relative banner-gradient pb-[200px] md:pb-[390px]">
-          <div className="flex flex-col items-center w-[1112px] pt-[80px] md:pt-[170px] lg:pt-[218px]">
+          <div className="flex flex-col items-center w-[1112px] pt-[170px] lg:pt-[218px]">
             <p className="font-Orbitron font-extrabold text-[40px] md:text-[50px] lg:text-[70px] leading-[55px] md:leading-[88px] text-center text-white">
               Lorem Ipsum{" "}
               <span className="bg-[#d25804] rounded-xl">Generator</span> Lorem
