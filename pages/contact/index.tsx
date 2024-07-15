@@ -21,9 +21,9 @@ const faqs = [
 ];
 
 const Contact = () => {
-  const [activeIndex, setActiveIndex] = useState(null);
+  const [activeIndex, setActiveIndex] = useState<number | null>(null);
 
-  const toggleFAQ = (index) => {
+  const toggleFAQ = (index: number | null) => {
     setActiveIndex(index === activeIndex ? null : index);
   };
 
