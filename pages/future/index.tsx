@@ -8,7 +8,7 @@ import RoundEffect from "@/public/assets/imgs/RoundEffect.png";
 import Line from "@/public/assets/imgs/Line.png";
 import Round from "@/public/assets/imgs/round.png";
 
-import Seasonality from "@/public/assets/imgs/Seasonality.png";
+import OnChain from "@/public/assets/imgs/OnChain.png";
 import MarketIntelligence from "@/public/assets/imgs/MarketIntelligence.png";
 import MobileIssueDetector from "@/public/assets/imgs/MobileIssueDetector.png";
 import OpportunityCalculation from "@/public/assets/imgs/OpportunityCalculation.png";
@@ -19,9 +19,9 @@ import CardGrid from "@/public/assets/imgs/cardGrid.png";
 
 import Vector from "@/public/assets/icons/vectorB.svg";
 import TakeCareGiftcard from "@/components/TakeCareGiftcard";
-import BuyAndSellGiftcard from "@/components/BuyAndSellGiftcard";
+// import BuyAndSellGiftcard from "@/components/BuyAndSellGiftcard";
 
-import Looper from "@/public/assets/imgs/Looper.png";
+import Looper from "@/public/assets/imgs/net.png";
 import bottomEffect from "@/public/assets/imgs/bottomEffect.png";
 import Footer from "@/components/Footer";
 
@@ -51,18 +51,18 @@ const Future = () => {
 
           <div className="flex flex-col items-center w-full xl:w-[1112px] pt-[253px] absolute left-0 xl:left-[23rem] gap-[86px]">
             <p className="font-Orbitron font-extrabold text-[40px] md:text-[50px] lg:text-[70px] leading-[55px] md:leading-[88px] text-center text-white">
-              Lorem Ipsum{" "}
-              <span className="bg-[#d25804] rounded-xl">Generator</span> Lorem
-              Ipsum
+              Bringing The{" "}
+              <span className="bg-[#d25804] rounded-xl px-3"> Gift card </span>{" "}
+              Experience On-Chain{" "}
             </p>
             <div className="flex justify-between gap-[20px] md:gap-[85px] xl:gap-[150px] py-[10px]">
-              <button className="w-[100px] md:w-[170px] h-[39px] text-white border-[1px] border-solid border-white rounded-[10px] font-Inter font-medium text-sm sm:text-base leading-[19px] tracking-[-2%]">
+              {/* <button className="w-[100px] md:w-[170px] h-[39px] text-white border-[1px] border-solid border-white rounded-[10px] font-Inter font-medium text-sm sm:text-base leading-[19px] tracking-[-2%]">
                 Whitelist
-              </button>
-              <button className="w-[100px] md:w-[170px] h-[39px] text-white border-[1px] border-solid border-white rounded-[10px] font-Inter font-medium text-sm sm:text-base leading-[19px] tracking-[-2%]">
+              </button> */}
+              <button className="w-[100px] md:w-[170px] h-[39px] text-white border-[1px] border-solid border-white rounded-[10px] font-Inter font-medium text-sm sm:text-base leading-[19px] tracking-[-2%] btn-hover">
                 White Paper
               </button>
-              <button className="w-[100px] md:w-[170px] h-[39px] text-white border-[1px] border-solid border-white rounded-[10px] font-Inter font-medium text-sm sm:text-base leading-[19px] tracking-[-2%]">
+              <button className="w-[100px] md:w-[170px] h-[39px] text-white border-[1px] border-solid border-white rounded-[10px] font-Inter font-medium text-sm sm:text-base leading-[19px] tracking-[-2%] btn-hover">
                 Lite Paper
               </button>
             </div>
@@ -80,71 +80,397 @@ const Future = () => {
         </div>
 
         <div className="flex flex-col items-center bg-black">
-          <p className="font-Orbitron font-bold text-[40px] md:text-[54px] leading-[60px] text-white pb-[50px]">
-            ICO Road Map
+          <p className="font-Orbitron font-bold text-[40px] md:text-[54px] leading-[60px] text-white pb-3 md:pb-[50px]">
+            Gifter Road Map
           </p>
 
-          <div className="p-6 rounded-xl mb-10">
+          <div className="p-6 rounded-xl mb-10 hidden xl:block">
             <div className="justify-between relative w-[25rem] xl:w-[1244px] h-[37rem] xl:h-[336px] rounded-[27px] border-[2px] gap-[30px] px-[45px] py-[46px] bg-gradient2 hidden xl:flex">
               <div className="flex flex-col md:flex-row relative">
-                <div className="absolute top-[70px] left-0 flex flex-col gap-[6px]">
-                  <p className="text-style">15.01.25</p>
-                  <div className="ml-[28px] transform -translate-x-1/2 bg-[#933FFE] w-[47px] h-[3px]"></div>
-                  <p className="text-style">20.02.25</p>
-                  <p className="text-style mt-11">Lorem Ipsum</p>
+                <div className="absolute top-[70px] left-0 flex flex-col gap-[6px] w-[100px] text-center">
+                  <p className="text-style">1st july 2024</p>
+                  <div className="w-full flex justify-center">
+                    <div className="bg-[#933FFE] w-[47px] h-[3px]"></div>
+                  </div>
+                  <p className="text-style">October 2024</p>
+                  <div className="absolute top-[65px] left-[30px] z-50">
+                    <svg
+                      width="17"
+                      height="17"
+                      viewBox="0 0 17 17"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <circle
+                        cx="8.5"
+                        cy="8.5"
+                        r="6"
+                        fill="white"
+                        stroke="#5D2CA8"
+                        stroke-width="5"
+                      />
+                    </svg>
+                  </div>
+                  <p className="mt-11 font-Inter text-[#933FFE] font-semibold text-[16px] leading-6">Gifter MVP</p>
                 </div>
               </div>
 
               <div className="flex flex-col md:flex-row absolute top-[150px] left-[205px]">
-                <div className="flex flex-col text-[#933FFE] font-Inter font-semibold">
-                  Gifter MVP
+                <div className="absolute top-[34px] left-[35px] z-50">
+                  <svg
+                    width="13"
+                    height="13"
+                    viewBox="0 0 13 13"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle cx="6.5" cy="6.5" r="6.5" fill="white" />
+                  </svg>
+                </div>
+                <div className="flex flex-col text-white font-Inter font-semibold">
+                  Fund Raising
                 </div>
               </div>
 
               <div className="flex flex-col md:flex-row absolute top-[115px] left-[424px]">
-                <div className="flex flex-col gap-[6px]">
-                  <p className="text-style">15.01.25</p>
-                  <div className="ml-[28px] transform -translate-x-1/2 bg-[#933FFE] w-[47px] h-[3px]"></div>
-                  <p className="text-style">20.02.25</p>
-                  <p className="text-style mt-11 font-Inter">Pre-ICO</p>
+                <div className="flex flex-col gap-[6px] text-center">
+                  <p className="text-style">1st November 2024</p>
+                  <div className="w-full flex justify-center">
+                    <div className="bg-[#933FFE] w-[47px] h-[3px]"></div>
+                  </div>
+                  <p className="text-style">20. October 2024</p>
+                  <div className="absolute top-[60px] left-[53px] z-50">
+                    <svg
+                      width="25"
+                      height="25"
+                      viewBox="0 0 25 25"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <g filter="url(#filter0_f_137_870)">
+                        <circle cx="12.5" cy="12.5" r="8.5" fill="white" />
+                      </g>
+                      <defs>
+                        <filter
+                          id="filter0_f_137_870"
+                          x="0"
+                          y="0"
+                          width="25"
+                          height="25"
+                          filterUnits="userSpaceOnUse"
+                          color-interpolation-filters="sRGB"
+                        >
+                          <feFlood
+                            flood-opacity="0"
+                            result="BackgroundImageFix"
+                          />
+                          <feBlend
+                            mode="normal"
+                            in="SourceGraphic"
+                            in2="BackgroundImageFix"
+                            result="shape"
+                          />
+                          <feGaussianBlur
+                            stdDeviation="2"
+                            result="effect1_foregroundBlur_137_870"
+                          />
+                        </filter>
+                      </defs>
+                    </svg>
+                  </div>
+                  <p className="mt-11 font-Inter text-[#933FFE] font-semibold text-[16px] leading-6">Pre-ICO</p>
                 </div>
               </div>
 
               <div className="flex flex-col md:flex-row absolute top-[115px] left-[678px]">
-                <div className="flex flex-col gap-[6px]">
-                  <p className="text-style">15.01.25</p>
-                  <div className="ml-[28px] transform -translate-x-1/2 bg-[#933FFE] w-[47px] h-[3px]"></div>
-                  <p className="text-style">20.02.25</p>
-                  <p className="text-style mt-11 ml-[17px]">ICO</p>
+                <div className="flex flex-col gap-[6px] text-center">
+                  <p className="text-style">December 2024</p>
+                  <div className="w-full flex justify-center">
+                    <div className="bg-[#933FFE] w-[47px] h-[3px]"></div>
+                  </div>
+                  <div className="absolute top-[66px] left-[49px] z-50">
+                    <svg
+                      width="13"
+                      height="13"
+                      viewBox="0 0 13 13"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <circle cx="6.5" cy="6.5" r="6.5" fill="white" />
+                    </svg>
+                  </div>
+                  <p className="text-style mt-[74px]">ICO</p>
                 </div>
               </div>
 
-              <div className="flex flex-col md:flex-row absolute top-[115px] left-[904px]">
-                <div className="flex flex-col gap-[6px]">
-                  <p className="text-style">15.01.25</p>
-                  <div className="ml-[28px] transform -translate-x-1/2 bg-[#933FFE] w-[47px] h-[3px]"></div>
-                  <p className="text-style">20.02.25</p>
-                  <p className="text-style mt-11 ml-[-15px]">Lorem Ipsum</p>
+              <div className="flex flex-col md:flex-row absolute top-[115px] left-[904px] text-center">
+                <div className="flex flex-col gap-[6px] text-center">
+                  <p className="text-style">Jan 2025</p>
+                  <div className="w-full flex justify-center">
+                    <div className="bg-[#933FFE] w-[47px] h-[3px]"></div>
+                  </div>
+                  <p className="text-style">March 2024</p>
+                  <div className="absolute top-[67px] left-[40px] z-50">
+                    <svg
+                      width="13"
+                      height="13"
+                      viewBox="0 0 13 13"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <circle
+                        cx="6.5"
+                        cy="6.5"
+                        r="4"
+                        fill="#2E1F44"
+                        stroke="white"
+                        stroke-width="5"
+                      />
+                    </svg>
+                  </div>
+                  <p className="mt-11 font-Inter text-[#933FFE] font-semibold text-[16px] leading-6">Marketplace</p>
                 </div>
               </div>
 
-              <div className="flex flex-col md:flex-row absolute top-[115px] left-[1150px]">
+              <div className="flex flex-col md:flex-row absolute top-[115px] left-[1150px] text-center">
                 <div className="flex flex-col gap-[6px]">
-                  <p className="text-style">15.01.25</p>
-                  <div className="ml-[28px] transform -translate-x-1/2 bg-[#933FFE] w-[47px] h-[3px]"></div>
-                  <p className="text-style">20.02.25</p>
-                  <p className="text-style mt-11 ml-[-15px]">Lorem Ipsum</p>
+                  <p className="text-style">April 2025</p>
+                  <div className="w-full flex justify-center">
+                    <div className="bg-[#933FFE] w-[47px] h-[3px]"></div>
+                  </div>
+                  <p className="text-style">July 2025</p>
+                  <div className="absolute top-[67px] left-[40px] z-50">
+                    <svg
+                      width="17"
+                      height="17"
+                      viewBox="0 0 17 17"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <circle
+                        cx="8.5"
+                        cy="8.5"
+                        r="6"
+                        fill="white"
+                        stroke="#2E1F44"
+                        stroke-width="5"
+                      />
+                    </svg>
+                  </div>
+                  <p className="text-style mt-11">
+                    Multichain Giftcards
+                  </p>
                 </div>
               </div>
               <Image
                 src={Line}
                 alt="Line"
-                className="w-[18px] md:w-[1137px] h-[35rem] md:h-[18px] absolute top-[0.75rem] md:top-[11.75rem] left-[12rem] md:left-[3.25rem] bg-no-repeat"
+                className="w-[18px] md:w-[1110px] h-[35rem] md:h-[3px] absolute top-[0.75rem] md:top-[11.75rem] left-[12rem] md:left-[85px] bg-no-repeat"
               />
             </div>
           </div>
 
-          <div className="flex flex-col xl:flex-row justify-around gap-[60px]">
+          <div className="p-6 rounded-xl mb-10 xl:hidden">
+            <div className="flex flex-col items-center justify-between relative w-[25rem] h-[43rem] rounded-[27px] border-[2px] gap-[30px] px-[30px] py-[46px] bg-gradient2">
+              <div className="flex gap-[40px] justify-between items-center text-center w-full">
+                <div className="flex flex-col gap-2">
+                  <p className="text-style">1st july 2024</p>
+                  <div className="w-full flex justify-center">
+                    <div className="bg-[#933FFE] w-[47px] h-[3px]"></div>
+                  </div>
+                  <p className="text-style">October 2024</p>
+                </div>
+                <div className="absolute top-[74px] left-[191px] z-50">
+                  <svg
+                    width="17"
+                    height="17"
+                    viewBox="0 0 17 17"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle
+                      cx="8.5"
+                      cy="8.5"
+                      r="6"
+                      fill="white"
+                      stroke="#5D2CA8"
+                      stroke-width="5"
+                    />
+                  </svg>
+                </div>
+                <p className="font-Inter text-[#933FFE] font-semibold text-[16px] leading-6">
+                  Gifter MVP
+                </p>
+              </div>
+
+              <div className="flex gap-[40px] justify-between items-center text-center relative w-full">
+                <div></div>
+                <div className="absolute top-[11px] left-[163px] z-50">
+                  <svg
+                    width="13"
+                    height="13"
+                    viewBox="0 0 13 13"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle cx="6.5" cy="6.5" r="6.5" fill="white" />
+                  </svg>
+                </div>
+                <div className="flex flex-col text-white font-Inter font-semibold ml-[112px]">
+                  Fund Raising
+                </div>
+              </div>
+
+              <div className="flex gap-[40px] justify-between items-center text-center w-full relative">
+                <div className="flex flex-row gap-[6px] text-center w-full justify-between items-center">
+                  <div className="flex flex-col gap-2">
+                    <p className="text-style">1st November 2024</p>
+                    <div className="w-full flex justify-center">
+                      <div className="bg-[#933FFE] w-[47px] h-[3px]"></div>
+                    </div>
+                    <p className="text-style">20. October 2024</p>
+                  </div>
+                  <div className="absolute top-[16px] left-[157px] z-50">
+                    <svg
+                      width="25"
+                      height="25"
+                      viewBox="0 0 25 25"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <g filter="url(#filter0_f_137_870)">
+                        <circle cx="12.5" cy="12.5" r="8.5" fill="white" />
+                      </g>
+                      <defs>
+                        <filter
+                          id="filter0_f_137_870"
+                          x="0"
+                          y="0"
+                          width="25"
+                          height="25"
+                          filterUnits="userSpaceOnUse"
+                          color-interpolation-filters="sRGB"
+                        >
+                          <feFlood
+                            flood-opacity="0"
+                            result="BackgroundImageFix"
+                          />
+                          <feBlend
+                            mode="normal"
+                            in="SourceGraphic"
+                            in2="BackgroundImageFix"
+                            result="shape"
+                          />
+                          <feGaussianBlur
+                            stdDeviation="2"
+                            result="effect1_foregroundBlur_137_870"
+                          />
+                        </filter>
+                      </defs>
+                    </svg>
+                  </div>
+                  <p className="font-Inter text-[#933FFE] font-semibold text-[16px] leading-6">
+                    Pre-ICO
+                  </p>
+                </div>
+              </div>
+
+              <div className="flex gap-[40px] justify-between items-center text-center w-full">
+                <div className="flex gap-[6px] text-center justify-between w-full relative">
+                  <div className="flex flex-col gap-2">
+                    {" "}
+                    <p className="text-style">December 2024</p>
+                    <div className="w-full flex justify-center">
+                      <div className="bg-[#933FFE] w-[47px] h-[3px]"></div>
+                    </div>
+                  </div>
+                  <div className="absolute top-[9px] left-[162px] z-50">
+                    <svg
+                      width="13"
+                      height="13"
+                      viewBox="0 0 13 13"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <circle cx="6.5" cy="6.5" r="6.5" fill="white" />
+                    </svg>
+                  </div>
+                  <p className="text-style">ICO</p>
+                </div>
+              </div>
+
+              <div className="flex gap-[40px] justify-between items-center text-center w-full">
+                <div className="flex gap-[6px] text-center items-center relative w-full justify-between">
+                  <div className="flex flex-col gap-2">
+                    <p className="text-style">Jan 2025</p>
+                    <div className="w-full flex justify-center">
+                      <div className="bg-[#933FFE] w-[47px] h-[3px]"></div>
+                    </div>
+                    <p className="text-style">March 2024</p>
+                  </div>
+                  <div className="absolute top-[23px] left-[162px] z-50">
+                    <svg
+                      width="13"
+                      height="13"
+                      viewBox="0 0 13 13"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <circle
+                        cx="6.5"
+                        cy="6.5"
+                        r="4"
+                        fill="#2E1F44"
+                        stroke="white"
+                        stroke-width="5"
+                      />
+                    </svg>
+                  </div>
+                  <p className="font-Inter text-[#933FFE] font-semibold text-[16px] leading-6">
+                    Marketplace
+                  </p>
+                </div>
+              </div>
+
+              <div className="flex gap-[40px] justify-between items-center text-center w-full">
+                <div className="flex gap-[6px] w-full relative justify-between items-center">
+                  <div className="flex flex-col gap-2">
+                    <p className="text-style">April 2025</p>
+                    <div className="w-full flex justify-center">
+                      <div className="bg-[#933FFE] w-[47px] h-[3px]"></div>
+                    </div>
+                    <p className="text-style">July 2025</p>
+                  </div>
+                  <div className="absolute top-[21px] left-[160px] z-50">
+                    <svg
+                      width="17"
+                      height="17"
+                      viewBox="0 0 17 17"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <circle
+                        cx="8.5"
+                        cy="8.5"
+                        r="6"
+                        fill="white"
+                        stroke="#2E1F44"
+                        stroke-width="5"
+                      />
+                    </svg>
+                  </div>
+                  <p className="text-style">Multichain Giftcards</p>
+                </div>
+              </div>
+
+              <Image
+                src={Line}
+                alt="Line"
+                className="h-[520px] w-[3px] absolute top-[85px] left-1/2"
+              />
+            </div>
+          </div>
+          {/* <div className="flex flex-col xl:flex-row justify-around gap-[60px]">
             <div className="p-2 rounded-xl mb-10 block xl:hidden">
               <div className="h-full flex flex-col relative gap-[50px] rounded-[27px] border-[2px] px-[45px] py-[46px] bg-gradient2">
                 <div className="flex text-style gap-[60px] justify-between">
@@ -245,24 +571,24 @@ const Future = () => {
                 </p>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
 
         <div className="flex flex-col items-center bg-gradient-enhance py-[50px] md:py-[100px] relative">
           <div className="text-white p-4 md:p-10">
             <div className="flex flex-col items-center gap-[34px]">
-              <p className="w-[308px] h-[34px] text-center border-[1px] border-[#FFFFFF0A] py-[5px] px-[61px] rounded-[999px] font-Inter font-normal text-sm leading-6 tracking-[1.12px]">
-                WHAT MORE TO COME
+              <p className="w-[308px] h-[34px] text-center border-[1px] border-[#FFFFFF0A] bg-[#FFFFFF0A] py-[5px] px-[61px] rounded-[999px] font-Inter font-normal text-sm leading-6 tracking-[1.12px]">
+                WHAT TO EXPECT ?
               </p>
               <p className="text-center text-[40px] xl:text-[53px] font-semibold xl:font-bold leading-[50px] xl:leading-[64px] font-Orbitron mb-10">
-                Enhance gifting efficiency
+                Key Features
               </p>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[5px] md:gap-[24px]">
               <div className="bg-[#0a0118] p-6 rounded-xl shadow-lg sm:w-[335px] xl:w-[400px] h-[304px]">
                 <div className="mb-4 relative">
-                  <Image src={Seasonality} alt="Seasonality" className="" />
+                  <Image src={OnChain} alt="OnChain" className="" />
                   <Image
                     src={CardGrid}
                     alt="CardGrid"
@@ -270,14 +596,14 @@ const Future = () => {
                   />
                 </div>
                 <h2 className="text-[18px] font-Inter font-semibold leading-6 tracking-[-0.36px] mb-2">
-                  Seasonality
+                  {` On-chain Gift Cards as NFT's`}
                 </h2>
                 <p className="mb-4">
-                  {`Spot when any keywords' seasonality is trending and when losing`}
+                  {`Giftcards will be created on-chain as NFT's Leveraging the flexibility of on-chain assets`}
                 </p>
               </div>
               <div className="bg-[#0a0118] p-6 rounded-xl shadow-lg sm:w-[335px] xl:w-[400px] h-[304px]">
-                <div className="mb-4 relative">
+                <div className="relative">
                   <Image
                     src={MobileIssueDetector}
                     alt="MobileIssueDetector"
@@ -290,11 +616,11 @@ const Future = () => {
                   />
                 </div>
                 <h2 className="text-[18px] font-Inter font-semibold leading-6 tracking-[-0.36px] mb-2">
-                  Mobile Issue Detector
+                  Easy to use Interface
                 </h2>
                 <p className="mb-4 font-normal text-base leading-6 tracking-[-0.16px] text-[#9B96B0]">
-                  When you have issues on mobile pages, we find them out by
-                  ranking differences.
+                  A user friendly and flexible interface for easy usage. Users
+                  can mint giftcard collections in a few clicks.
                 </p>
               </div>
               <div className="bg-[#0a0118] p-6 rounded-xl shadow-lg sm:w-[335px] xl:w-[400px] h-[304px]">
@@ -311,11 +637,11 @@ const Future = () => {
                   />
                 </div>
                 <h2 className="text-[18px] font-Inter font-semibold leading-6 tracking-[-0.36px] mb-2">
-                  Best Rank Spotter
+                  ZK Proofs
                 </h2>
                 <p className="mb-4 font-normal text-base leading-6 tracking-[-0.16px] text-[#9B96B0]">
-                  Analyzes the history of ranking and lets you know when you
-                  spot the best rank.
+                  ZK proofs will be used to verify the authenticity of
+                  gift-cards during at redemption point
                 </p>
               </div>
               <div className="bg-[#0a0118] p-6 rounded-xl shadow-lg sm:w-[335px] xl:w-[400px] h-[304px]">
@@ -328,10 +654,11 @@ const Future = () => {
                   />
                 </div>
                 <h2 className="text-[18px] font-Inter font-semibold leading-6 tracking-[-0.36px] mb-2">
-                  Smart Alerts
+                  Track giftcard usage on-chain
                 </h2>
                 <p className="mb-4 font-normal text-base leading-6 tracking-[-0.16px] text-[#9B96B0]">
-                  Simplify gift management with advanced alerts
+                  Giftcard collections can be tracked on-chain including use and
+                  expiry dates
                 </p>
               </div>
               <div className="bg-[#0a0118] p-6 rounded-xl shadow-lg sm:w-[335px] xl:w-[400px] h-[304px]">
@@ -348,10 +675,11 @@ const Future = () => {
                   />
                 </div>
                 <h2 className="text-[18px] font-Inter font-semibold leading-6 tracking-[-0.36px] mb-2">
-                  Market Intelligence Based on AI
+                  Marketplace
                 </h2>
                 <p className="mb-4 font-normal text-base leading-6 tracking-[-0.16px] text-[#9B96B0]">
-                  Experience seamless gifting with intelligent notifications
+                  Gifter marketplace will be a platform that allows anyone to
+                  trade gift cards seamlessly and security
                 </p>
               </div>
               <div className="bg-[#0a0118] p-6 rounded-xl shadow-lg sm:w-[335px] xl:w-[400px] h-[304px]">
@@ -368,43 +696,38 @@ const Future = () => {
                   />
                 </div>
                 <h2 className="text-base font-Inter font-semibold leading-6 tracking-[-0.36px] mb-2">
-                  Opportunity Calculation
+                  Seamless creation of giftcard collections
                 </h2>
                 <p className="mb-4 font-normal text-base leading-6 tracking-[-0.16px] text-[#9B96B0]">
-                  A few position changes can bring the most traffic by using the
-                  opportunity metric.
+                  Collections can be minted seamlessly on-chain
                 </p>
               </div>
             </div>
           </div>{" "}
-          <button className="flex justify-center items-center mt-[16px] text-black font-Inter font-medium text-base leading-[19px] tracking-[-2%] bg-white w-[162px] h-[40px] rounded-[10px] py-[10px] px-[15px] gap-1">
-            Get Started{" "}
+          <button className="flex justify-center items-center mt-[16px] btnJoin-hover text-black font-Inter font-medium text-base leading-[19px] tracking-[-2%] bg-white w-[162px] h-[40px] rounded-[10px] py-[10px] px-[15px] gap-1">
+            Join waitlist{" "}
             <span>
-              <Image
-                src={Vector}
-                alt="Vector"
-                className="w-[12.5px] h-[10px]"
-              />
+              <Image src={Vector} alt="Vector" className="w-[20px] h-[10px]" />
             </span>
           </button>
-          <p className="flex justify-center font-Orbitron font-black leading-[58px] md:leading-[260px] mt-[40px] text-white text-[58px] md:text-[100px] xl:text-[200px] py-[10px]">
-            Buy and Sell
+          <p className="flex justify-center font-Orbitron font-black leading-[58px] md:leading-[168px] mt-[40px] text-[#FFFFFF47] text-[58px] md:text-[100px] xl:text-[140px] py-[50px]">
+            Create Giftcards
           </p>
-          <Image
-            src={Looper}
-            alt="Looper"
-            className="w-[1020px] h-[1044px] absolute bottom-[-246px] md:right-0 xl:right-[-411px] hidden sm:block"
-          />
         </div>
 
         <div className="bg-black">
-          <BuyAndSellGiftcard />
+          {/* <BuyAndSellGiftcard /> */}
           <TakeCareGiftcard />
+          <Image
+            src={Looper}
+            alt="Looper"
+            className="w-[845px] h-[1044px] absolute bottom-[134px] md:right-0 xl:right-0 hidden sm:block z-10"
+          />
         </div>
         <Image
           src={bottomEffect}
           alt="bottomEffect"
-          className="w-[3747px] h-[1204px] absolute bottom-[-70rem] md:bottom-[-34rem] right-[2rem] z-50"
+          className="w-[3747px] h-[890px] absolute bottom-[-43rem] md:bottom-[-35rem] right-[2rem] z-50"
         />
       </div>
       <Footer />

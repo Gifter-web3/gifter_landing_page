@@ -1,5 +1,5 @@
 import Acme from "../public/assets/imgs/acme1.png";
-import Apex from "../public/assets/imgs/apex1.png";
+import Apex from "../public/assets/imgs/apex.png";
 import Celestia from "../public/assets/imgs/celestia1.png";
 import Pulse from "../public/assets/imgs/pulse1.png";
 import Quantum from "../public/assets/imgs/quantum1.png";
@@ -39,21 +39,19 @@ export const FoldData = [
 
 export const LoremData = [
   {
-    title: "Lorem Ipsum",
+    title: "Create Giftcards",
     content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ",
+      "Create unique giftcard/giftcard collections on-chain and generate random secure codes. ",
     img: LeafIcon,
   },
   {
-    title: "Lorem Ipsum",
-    content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ",
+    title: "Share or Sell Giftcard Codes",
+    content: "Share generated code to anyone",
     img: LeafIcon,
   },
   {
-    title: "Lorem Ipsum",
-    content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ",
+    title: "Redeem Giftcard",
+    content: "Seamlessly redeem giftcards. ",
     img: LeafIcon,
   },
 ];
