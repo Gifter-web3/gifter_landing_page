@@ -36,6 +36,9 @@ body {
 .banner-gradient {
   background: linear-gradient(180deg, #000000 0%, #200D42 36.21%, #4F21A1 68.68%, #A46EDB 86.54%);
 }
+.footer-gradient {
+  background: linear-gradient(180deg, #000000 0%, #200D42 36.21%, #4F21A1 68.68%, #A46EDB 86.54%);
+}
 
 .border-gradient {
   background: linear-gradient(109.46deg, rgba(98, 98, 98, 0.24) 1.57%, rgba(196, 196, 196, 0.03) 100%);
@@ -109,4 +112,16 @@ body {
   top: 40%;
   left: 45%;
   z-index: 50;
+}
+
+.btn-hover:hover {
+  background: linear-gradient(to right, #000000 0%, #240064 33%, #673FAE 67%, #A46EDB 100%);
+  width: 160px;
+  transform: scale(0.95);
+  transition: width 0.3s, background 0.3s, transform 0.3s;
+}
+
+.btnJoin-hover:hover {
+  background: linear-gradient(to right, #000000 0%, #240064 33%, #673FAE 67%, #A46EDB 100%);
+  transition: width 0.3s, background 0.3s, transform 0.3s;
 }
