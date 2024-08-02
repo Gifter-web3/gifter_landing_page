@@ -111,7 +111,9 @@ const Future = () => {
                       />
                     </svg>
                   </div>
-                  <p className="mt-11 font-Inter text-[#933FFE] font-semibold text-[16px] leading-6">Gifter MVP</p>
+                  <p className="mt-11 font-Inter text-[#933FFE] font-semibold text-[16px] leading-6">
+                    Gifter MVP
+                  </p>
                 </div>
               </div>
 
@@ -178,7 +180,9 @@ const Future = () => {
                       </defs>
                     </svg>
                   </div>
-                  <p className="mt-11 font-Inter text-[#933FFE] font-semibold text-[16px] leading-6">Pre-ICO</p>
+                  <p className="mt-11 font-Inter text-[#933FFE] font-semibold text-[16px] leading-6">
+                    Pre-ICO
+                  </p>
                 </div>
               </div>
 
@@ -228,7 +232,9 @@ const Future = () => {
                       />
                     </svg>
                   </div>
-                  <p className="mt-11 font-Inter text-[#933FFE] font-semibold text-[16px] leading-6">Marketplace</p>
+                  <p className="mt-11 font-Inter text-[#933FFE] font-semibold text-[16px] leading-6">
+                    Marketplace
+                  </p>
                 </div>
               </div>
 
@@ -257,9 +263,7 @@ const Future = () => {
                       />
                     </svg>
                   </div>
-                  <p className="text-style mt-11">
-                    Multichain Giftcards
-                  </p>
+                  <p className="text-style mt-11">Multichain Giftcards</p>
                 </div>
               </div>
               <Image
@@ -704,13 +708,20 @@ const Future = () => {
               </div>
             </div>
           </div>{" "}
-          <button className="flex justify-center items-center mt-[16px] btnJoin-hover text-black font-Inter font-medium text-base leading-[19px] tracking-[-2%] bg-white w-[162px] h-[40px] rounded-[10px] py-[10px] px-[15px] gap-1">
-            Join waitlist{" "}
-            <span>
-              <Image src={Vector} alt="Vector" className="w-[20px] h-[10px]" />
-            </span>
+          <button className="mt-[16px] group text-black font-Inter font-medium text-base leading-[19px] tracking-[-2%] bg-white hover:bg-white/0 transition-all delay-200 duration-500 w-[162px] h-[40px] rounded-[10px] py-[10px] px-[15px] gap-1 relative overflow-hidden">
+            <div className="absolute left-0 top-0 w-full h-full btnJoin-hover opacity-0 group-hover:opacity-100 transition-all delay-200 duration-500"></div>
+            <div className="relative z-10 flex justify-center items-center">
+              Join waitlist{" "}
+              <span>
+                <Image
+                  src={Vector}
+                  alt="Vector"
+                  className="w-[20px] h-[10px]"
+                />
+              </span>
+            </div>
           </button>
-          <p className="flex justify-center font-Orbitron font-black leading-[58px] md:leading-[168px] mt-[40px] text-[#FFFFFF47] text-[58px] md:text-[100px] xl:text-[140px] py-[50px]">
+          <p className="flex justify-center animate-marquee font-Orbitron font-black leading-[58px] md:leading-[168px] mt-[40px] text-[#FFFFFF47] text-[58px] md:text-[100px] xl:text-[140px] py-[50px]">
             Create Giftcards
           </p>
         </div>
