@@ -121,7 +121,7 @@ body {
   transition: width 0.3s, background 0.3s, transform 0.3s;
 }
 
-.btnJoin-hover:hover {
+.btnJoin-hover {
   background: linear-gradient(to right, #000000 0%, #240064 33%, #673FAE 67%, #A46EDB 100%);
-  transition: width 0.3s, background 0.3s, transform 0.3s;
+  /* transition: width 0.3s, background 0.3s, transform 0.3s; */
 }

@@ -18,6 +18,18 @@ const config: Config = {
         // Manrope: "Manrope",
         // Inter: "Inter",
       },
+      keyframes: {
+        marquee: {
+          "0%": { transform: "translateX(0px)" },
+          "15%": { transform: "translateX(50px)" },
+          "50%": { transform: "translateX(50px)" },
+          "65%": { transform: "translateX(0px)" },
+          "100%": { transform: "translateX(0px)" },
+        },
+      },
+      animation: {
+        marquee: "marquee 2s linear infinite",
+      },
     },
   },
   plugins: [],
