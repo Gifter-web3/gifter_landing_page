@@ -44,7 +44,7 @@ const Main = () => {
               <br></br>
               <p className="mt-5">To web3</p>
             </div>
-            <p className="text-lg leading-[25px] font-medium text-[#6F698E] px-2 sm:px-auto text-center w-full lg:w-[755px] py-7">
+            <p className="text-lg leading-[25px] font-medium text-white px-2 sm:px-auto text-center w-full lg:w-[755px] py-7">
               Gifter.web3 is a decentralized application that will be built on
               the blockchin chain that provides an intuitive, user-friendly
               platform where anyone can create customizable gift cards
@@ -82,14 +82,14 @@ const Main = () => {
         </div>
 
         <div className="flex justify-center bg-black relative">
-          <div className="w-full absolute left-0 top-0 -translate-y-[55%]">
+          <div className="w-full absolute left-0 top-0 -translate-y-[55%] z-20">
             <Image
               src={TeamTopImage}
               alt="team-top"
               className="w-full h-auto"
             />
           </div>
-          <div className="flex flex-col justify-center items-center w-auto py-[40px] gap-[43px] z-30">
+          {/* <div className="flex flex-col justify-center items-center w-auto py-[40px] gap-[43px] z-30">
             <p className="text-[#7A7A7A] font-normal text-sm leading-[17px]">{`Trusted by the world’s most innovative teams`}</p>
             <div className="grid md:flex grid-cols-2 md:grid-cols-3 justify-between gap-4 md:gap-7">
               {FoldData.map((item) => {
@@ -104,11 +104,11 @@ const Main = () => {
                 );
               })}
             </div>
-          </div>
+          </div> */}
         </div>
 
-        <div className="flex flex-col justify-center items-center py-1 md:py-[100px] bg-black relative">
-          <div className="text-center lg:w-[828px] ">
+        <div className="flex flex-col justify-center items-center py-1 md:py-[100px] bg-black relative mt-[60px] sm:mt-0">
+          <div className="text-center lg:w-[828px] z-40">
             <p className="text-[40px] md:text-[54px] leading-[46px] md:leading-[60px] font-semibold md:font-bold font-Orbitron text-white">
               How Gifter Works
             </p>
@@ -435,7 +435,7 @@ const Main = () => {
         <Image
           src={bottomEffect}
           alt="bottomEffect"
-          className="w-[3747px] h-[890px] absolute bottom-[-43rem] md:bottom-[-35rem] right-[2rem] z-50"
+          className="w-[3747px] h-[890px] absolute bottom-[-43rem] md:bottom-[-49rem] xl:bottom-[-35rem] right-[2rem] z-50"
         />
       </div>
       <Footer />
