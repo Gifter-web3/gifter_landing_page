@@ -10,9 +10,10 @@ import TeamTopImage from "@/public/assets/imgs/team-top.png";
 const MarketPlace = () => {
   return (
     <>
+    {/* left-[1rem] sm:left-[6rem] lg:left-[14rem] xl:left-[43rem] */}
       <div className="flex w-full h-auto flex-col relative  banner-gradient min-h-screen">
-        <div className="absolute top-[20rem] md:top-[23rem] left-[1rem] sm:left-[6rem] lg:left-[14rem] xl:left-[43rem] flex flex-col justify-center items-center gap-6 md:gap-[38px]">
-          <p className="font-Orbitron font-semibold md:font-bold text-[46px] md:text-[66px] leading-[78px] tracking-[1px] text-white text-center">
+        <div className="absolute top-1/2 -translate-y-1/2 w-full">
+          <p className="font-Orbitron font-semibold md:font-bold text-[46px] md:text-[66px] leading-[78px] tracking-[1px] text-white text-center mx-auto">
             Coming soon.....
           </p>
           {/* <div className="flex gap-3 md:gap-9">
