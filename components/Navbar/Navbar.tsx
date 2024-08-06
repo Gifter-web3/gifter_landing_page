@@ -33,8 +33,8 @@ const Navbar = () => {
           <div className="flex w-[500px] lg:w-[781px] justify-between items-center">
             <div className="w-auto lg:w-[412px] h-[40px] gap-4 flex justify-between font-semibold lg:font-bold items-center text-[15px] font-['Manrope']">
               <Link href="/future">Future</Link>
-              <Link href="/#">Litepaper</Link>
-              <Link href="/#">Whitepaper</Link>
+              <Link href="/marketplace">Litepaper</Link>
+              <Link href="/marketplace">Whitepaper</Link>
               <Link href="/marketplace">Marketplace</Link>{" "}
             </div>
             <button className="flex justify-center text-base font-medium leading-5 font-Inter w-[164px]">
@@ -59,10 +59,10 @@ const Navbar = () => {
               <Link href="/future" onClick={() => setIsActive(false)}>
                 Future
               </Link>
-              <Link href="/#" onClick={() => setIsActive(false)}>
+              <Link href="/marketplace" onClick={() => setIsActive(false)}>
                 Litepaper
               </Link>
-              <Link href="/#" onClick={() => setIsActive(false)}>
+              <Link href="/marketplace" onClick={() => setIsActive(false)}>
                 Whitepaper
               </Link>
               <Link href="/marketplace" onClick={() => setIsActive(false)}>

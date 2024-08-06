@@ -49,8 +49,8 @@ const Future = () => {
             />
           </div>
 
-          <div className="flex flex-col items-center w-full xl:w-[1112px] pt-[253px] absolute left-0 xl:left-[23rem] gap-[86px]">
-            <p className="font-Orbitron font-extrabold text-[40px] md:text-[50px] lg:text-[70px] leading-[55px] md:leading-[88px] text-center text-white">
+          <div className="flex flex-col items-center w-full pt-[253px] absolute mx-auto gap-[86px]">
+            <p className="font-Orbitron font-extrabold text-[40px] md:text-[50px] lg:text-[70px] max-w-[1112px] leading-[55px] md:leading-[88px] text-center text-white">
               Bringing The{" "}
               <span className="bg-[#d25804] rounded-xl px-3"> Gift card </span>{" "}
               Experience On-Chain{" "}
@@ -738,7 +738,7 @@ const Future = () => {
         <Image
           src={bottomEffect}
           alt="bottomEffect"
-          className="w-[3747px] h-[890px] absolute bottom-[-43rem] md:bottom-[-35rem] right-[2rem] z-50"
+          className="w-[3747px] h-[890px] absolute bottom-[-43rem] md:bottom-[-49rem] xl:bottom-[-35rem] right-[2rem] z-50"
         />
       </div>
       <Footer />
