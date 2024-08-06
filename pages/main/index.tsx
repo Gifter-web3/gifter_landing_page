@@ -205,7 +205,7 @@ const Main = () => {
           </div>
 
           <div className="flex justify-center sm:py-[100px] w-full z-50">
-            <div className="flex flex-col gap-[40px] sm:gap-[60px] text-center">
+            <div className="flex flex-col gap-[40px] sm:gap-[60px] text-center items-center">
               <p className="font-Orbitron font-semibold sm:font-bold text-[40px] sm:text-[54px] leading-[50px] sm:leading-[60px] text-white">
                 Key Features
               </p>
