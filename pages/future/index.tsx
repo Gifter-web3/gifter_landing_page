@@ -8,7 +8,7 @@ import RoundEffect from "@/public/assets/imgs/RoundEffect.png";
 import Line from "@/public/assets/imgs/Line.png";
 import Round from "@/public/assets/imgs/round.png";
 
-import OnChain from "@/public/assets/imgs/OnChain.png";
+import OnChain from "@/public/assets/imgs/onChain.png";
 import MarketIntelligence from "@/public/assets/imgs/MarketIntelligence.png";
 import MobileIssueDetector from "@/public/assets/imgs/MobileIssueDetector.png";
 import OpportunityCalculation from "@/public/assets/imgs/OpportunityCalculation.png";
